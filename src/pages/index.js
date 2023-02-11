@@ -12,6 +12,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Flex w="100%">
+      <Sidebar />
+      <Flex
+        pos="absolute"
+        top="50%"
+        left="50%"
+        transform="translate(-50%, -50%)"
+      >
+        <Text>Click the
+          <IconButton
+            background="none"
+            _hover={{ background: 'none' }}
+            icon={<FiMenu />}
+          />
+        to resize the vertical navigation bar.</Text>
+      </Flex>
+    </Flex>
       <AppLayout></AppLayout>
     </>
   );

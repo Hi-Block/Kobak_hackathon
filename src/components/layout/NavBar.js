@@ -7,7 +7,6 @@ import {
   Box,
   Center,
   Circle,
-  Divider,
   Flex,
   Image,
   Menu,

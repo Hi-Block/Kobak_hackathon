@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Flex, Text, IconButton } from "@chakra-ui/react";
 import NavBar from "@/components/layout/NavBar";
 import AppLayout from "@/components/layout/AppLayout";
+import CreateAccount from "../components/create/CreateAccount";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
           transform="translate(-50%, -50%)"
         ></Flex>
       </Flex>
-      <AppLayout></AppLayout>
+      <AppLayout>
+        <CreateAccount />
+      </AppLayout>
     </>
   );
 }

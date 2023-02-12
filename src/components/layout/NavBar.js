@@ -38,7 +38,6 @@ function NavBar(props) {
             <Link href="/profile" passHref>
               <MenuItem>Profile</MenuItem>
             </Link>
-            <MenuDivider />
             <Link href="/storage" passHref>
               <MenuItem>Storage</MenuItem>
             </Link>
@@ -48,7 +47,6 @@ function NavBar(props) {
             <Link href="/apps" passHref>
               <MenuItem>Apps</MenuItem>
             </Link>
-            <MenuDivider />
           </MenuGroup>
         </MenuList>
       </Menu>

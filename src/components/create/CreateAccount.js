@@ -47,6 +47,34 @@ function CreateAccount(props) {
             >
               Securely store and hold your sbt and compatible assets with
             </Text>
+
+            <Stack
+              direction="row"
+              alignSelf="center"
+              alignItems="center"
+              pt="6"
+            >
+              <ButtonGroup spacing={10}>
+                <Button
+                  colorScheme="linkedin"
+                  variant="solid"
+                  size="md"
+                  height="48px"
+                  width="200px"
+                >
+                  Create Account
+                </Button>
+                <Button
+                  colorScheme="linkedin"
+                  variant="outline"
+                  size="md"
+                  height="48px"
+                  width="200px"
+                >
+                  Import Existing Account
+                </Button>
+              </ButtonGroup>
+            </Stack>
           </VStack>
         </Box>
       </Box>
